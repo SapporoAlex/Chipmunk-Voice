@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chipmunk Voice</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#ffcc00" />
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: #ffeb99;
+      padding-top: 50px;
+    }
+    button {
+      font-size: 2rem;
+      padding: 20px 40px;
+      margin: 20px;
+      border-radius: 20px;
+      border: none;
+      background: #ff6600;
+      color: white;
+      cursor: pointer;
+    }
+    button:active {
+      transform: scale(0.95);
+    }
+    #test {
+        background: #000;
+        color: yellow;
+    }
+  </style>
+</head>
+<body>
+<h2 id="test">Test Version 1.0.0</h2>
+  <h1>🐿 Chipmunk Voice!</h1>
+
+  <button id="recordBtn">🎙 Record</button>
+  <button id="playBtn">▶ Play</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
