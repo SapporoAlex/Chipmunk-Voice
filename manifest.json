@@ -1,8 +1,8 @@
 {
   "name": "Chipmunk Voice",
   "short_name": "Chipmunk",
-  "start_url": "/Chipmunk-Voice/",
-  "scope": "/Chipmunk-Voice/",
+  "start_url": "./Chipmunk-Voice/",
+  "scope": "./Chipmunk-Voice/",
   "display": "standalone",
   "background_color": "#ffeb99",
   "theme_color": "#ffcc00",
@@ -19,3 +19,4 @@
     }
   ]
 }
+
